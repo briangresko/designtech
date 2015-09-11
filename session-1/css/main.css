@@ -131,7 +131,7 @@ html, body {
 .resource__item,
 .download__link {
     padding: 5px 0px;
-    border-bottom: 1px dotted grey;
+    border-bottom: 1px dotted gray;
 }
 
 a {
@@ -153,8 +153,9 @@ h3 {
     float: left;
     width: 22%;
     margin-right: 4%;
-    border-bottom: 3px solid grey;
+    border-bottom: 3px solid gray;
     padding-bottom: 10px;
+    word-wrap: break-word;
 }
 
 .student:nth-of-type(4n) {
