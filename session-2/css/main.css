@@ -15,7 +15,7 @@ html, body {
 .site-header {
     width: 100%;
     height: 400px;
-    background-image: url("../img/ducks.jpg");
+    background-image: url("../img/pattern.jpg");
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
