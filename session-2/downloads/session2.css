@@ -1,0 +1,22 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #d8d8d8;
+    font-family: Helvetica, sans-serif;
+}
+
+.site-header {
+    height: 400px;
+    background-image: url('../img/pattern.png');
+}
+
+.banner {
+    background-color: #f7f7f7;
+    border-bottom: 3px solid black;
+}
