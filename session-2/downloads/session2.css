@@ -11,12 +11,135 @@ html, body {
     font-family: Helvetica, sans-serif;
 }
 
+.clearfix:after,
+.clearfix:before {
+    display: table;
+    content: '';
+}
+.clearfix:after {
+    clear: both;
+}
+
 .site-header {
     height: 400px;
     background-image: url('../img/pattern.png');
+    position: relative;
 }
 
 .banner {
     background-color: #f7f7f7;
     border-bottom: 3px solid black;
 }
+
+.site-logo {
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    font-size: 24px;
+    margin: 8px 0 0 24px;
+}
+
+.site-nav {
+    float: right;
+}
+.nav-links {
+    margin: 0;
+    list-style: none;
+}
+
+.nav-links li {
+    float: left;
+}
+.nav-links li a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 1em;
+    display: block;
+}
+.nav-links li a:hover {
+    color: #ff078a;
+}
+
+.title {
+    background-color: black;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    padding: 30px 0 60px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.title h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.page {
+    width: 1040px;
+    margin: -50px auto 0 auto;
+    position: relative;
+}
+
+.main-content {
+    float: left;
+    width: 70%;
+    margin-right: 3%;
+    background-color: white;
+    padding: 1em 2em;
+}
+
+.class-documents {
+    float: left;
+    background-color: white;
+    width: 27%;
+    padding: 1em;
+}
+
+.main-content .header {
+    text-align: center;
+    font-style: italic;
+    padding: 0 1em;
+}
+
+.resources h2,
+.people h2,
+.class-documents h2 {
+    border-bottom: 3px solid #ff078a;
+}
+
+.websites {
+    width: 45%;
+    margin-right: 5%;
+    float: left;
+}
+
+.websites h3 {
+    font-style: italic;
+    text-align: center;
+}
+.websites ul,
+.class-documents ul{
+    padding: 0;
+}
+.websites ul li,
+.class-documents ul li{
+    list-style: none;
+    border-bottom: 1px solid grey;
+    padding: 0.5em 0em;
+}
+
+.websites ul li a,
+.class-documents ul li a{
+    color: #ff078a;
+    text-decoration: none;
+}
+.websites ul li a:hover,
+.class-documents ul li a:hover{
+    color: #b20060;
+}
+
+
